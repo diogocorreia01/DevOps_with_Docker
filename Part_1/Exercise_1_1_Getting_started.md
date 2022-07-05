@@ -14,8 +14,7 @@ docker ps
 
 docker stop redis-container
 
-docker containers purge
-docker images purge
+docker ps -a
 ```
 
 ## Output
