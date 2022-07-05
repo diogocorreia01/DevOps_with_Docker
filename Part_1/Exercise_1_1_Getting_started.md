@@ -12,7 +12,7 @@ docker stop postgres-container
 
 docker ps
 
-docker stop rd-container
+docker stop redis-container
 
 docker containers purge
 docker images purge
