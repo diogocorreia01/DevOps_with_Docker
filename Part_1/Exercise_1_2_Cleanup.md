@@ -6,6 +6,10 @@
 docker ps -as
 
 docker images
+
+docker rmi <image name> (remove image)
+
+docker rm <container name> (remove container)
 ```
 
 ## Output
