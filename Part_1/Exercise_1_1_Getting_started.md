@@ -1,0 +1,20 @@
+# Exercise 1.1: Getting started
+
+## Commands
+
+```bash
+docker run -d --name nginx-container nginx
+docker run -d --name postgres-container postgres
+docker run -d --name redis-container redis
+
+docker stop nginx-container
+docker stop postgres-container
+
+docker ps
+
+docker stop rd-container
+
+docker containers purge
+docker images purge
+```
+
